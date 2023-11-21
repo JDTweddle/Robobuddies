@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'ROBOTIC Bold';
+    font-weight: 900;
+    src: local('ROBOTIC Bold'), url('ROBOTIC-Bold.woff') format('woff');
+    }
+
+h1 {
+    font-family:'ROBOTIC Bold';
+    color: rgb(219, 0, 0);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
